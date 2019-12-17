@@ -1,0 +1,36 @@
+    ul.menu li {
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-family: wisdom script;
+    }
+    
+    ul {
+        text-align: center
+    }
+    
+    li {
+        margin: 0 1rem
+    }
+    
+    div.card {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+    
+    div.word {
+        text-transform: uppercase;
+    }
+    
+    button {
+        display: inline-block;
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    
+    margin-right: 50%;
+    margin-left: 50%;
