@@ -6,7 +6,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: black;
-        font-family: wisdom script;
+        font-family:
     }
     
     ul {
@@ -26,11 +26,7 @@
         text-transform: uppercase;
     }
     
-    button {
-        display: inline-block;
-        margin-right: 50%;
-        margin-left: 50%;
+    .wrapper {
+        text-align: center;
+        margin-bottom: 1rem;
     }
-    
-    margin-right: 50%;
-    margin-left: 50%;
