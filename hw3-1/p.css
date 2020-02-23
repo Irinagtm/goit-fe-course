@@ -1,0 +1,61 @@
+    ul.menu li {
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    a:hover {
+        color: rgb(104 203 248);
+    }
+    
+    ul {
+        text-align: center
+    }
+    
+    li {
+        margin: 0 1rem
+    }
+    
+    main {
+        width: 960px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .card {
+        display: inline-block;
+        margin: 0 1rem;
+        vertical-align: top;
+        font-size: 0;
+        width: 421px;
+    }
+    
+    .card-content {
+        font-size: 16px;
+    }
+    
+    .word {
+        text-transform: uppercase;
+    }
+    
+    .wrapper {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .control {
+        border: none;
+        outline: none;
+        border: 1px solid black;
+        padding: 18px 33px;
+        background-color: white;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 50px;
+    }

@@ -1,0 +1,39 @@
+    ul.menu li {
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    ul {
+        text-align: center
+    }
+    
+    li {
+        margin: 0 1rem
+    }
+    
+    main {
+        width: 960px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    div.card {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+    
+    div.word {
+        text-transform: uppercase;
+    }
+    
+    .wrapper {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
