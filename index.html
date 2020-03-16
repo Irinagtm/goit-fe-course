@@ -5,159 +5,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styl.css">
     <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Roboto&display=swap" rel="stylesheet">
-    <title>HW4</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQvYUhtdYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="Pe-icon-7-stroke.ttf">
+    <title>HW5</title>
 </head>
 
 <body>
 
     <header class="page header">
         <nav>
-            <div class="box">
-                <div class="clearfix">
-                    <a href="" class="logo">Mart</a>
-                    <ul class="menu">
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Home</a></li>
-                    </ul>
+            <div class="wrapper-section">
+                <div class="wrapper-item">
+                    <div class="wrapper">
+                        <div class="logo">Mart</div>
+                        <ul class="menu">
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
-        <section class="features">
-            <div class="features-title-line">
-                <h2 class="features-title">Featured Products</h2>
-                <!-- <div class="line"></div> -->
-            </div>
-            <div class="features-box">
-                <ul class="features-list clearfix">
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-1-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">Blue Tshirt</div>
-                            <div class="price">$26</div>
-                        </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-2-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">WOMAN shirt</div>
-                            <div class="price">$31</div>
-                        </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-3-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">YELLOW Tshirt</div>
-                            <div class="price">$21</div>
-                        </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-4-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">Cool lingerie</div>
-                            <div class="price">$56</div>
-                        </div>
 
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-5-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
+        <div class="slider">
+            <button class="slider-ctrl slider-ctrl-prev"><</button>
+            <button class="slider-ctrl slider-ctrl-next">></button>
+            <ul class="slides">
+                <li class="slides-item">
+                    <img class="picture" src="img/1-1.jpg" alt="girls">
+                    <div class="box"></div>
+                    <p class="slides-about">AFFORDABLE PARIS TOURS</p>
+                    <p class="slides-about-item"> CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <section class="features">
+            <h2 class="features-title">NEW COLLECTION</h2>
+            <ul class="features-list clearfix">
+                <li class="features-list-item">
+                    <div class="card">
+                        <div class="visibility-hidden">
+                            <ul class="buttons">
+                                <li class="button-item">
+                                    <p class="button-item-sign"></p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">2</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">3</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">ADD TO CART</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="img/product1.jpg" alt="blue tishirt" width="255" height="322">
+                        <div class="product">
                             <div class="product-name">Blue Tshirt</div>
                             <div class="price">$26</div>
                         </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-6-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">WOMAN shirt</div>
-                            <div class="price">$31</div>
+                    </div>
+
+                </li>
+                <li class="features-list-item">
+                    <div class="card">
+                        <div class="visibility-hidden">
+                            <ul class="buttons">
+                                <li class="button-item">
+                                    <p class="button-item-sign"></p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">2</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">3</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">ADD TO CART</p>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-7-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">YELLOW Tshirt</div>
-                            <div class="price">$21</div>
+                        <img src="img/product2.jpg" alt="blue tshirt" width="255" height="322">
+                        <div class="product-name">WOMAN shirt</div>
+                        <div class="price">$31</div>
+                    </div>
+                </li>
+                <li class="features-list-item">
+                    <div class="card">
+                        <div class="visibility-hidden">
+                            <ul class="buttons">
+                                <li class="button-item">
+                                    <p class="button-item-sign"></p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">2</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">3</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">ADD TO CART</p>
+                                </li>
+                            </ul>
+
                         </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="card">
-                            <div class="img-wrp">
-                                <img src="img/4-8-3.png" alt="blue tishirt" width="255" height="283">
-                            </div>
-                            <div class="product-name">Cool lingerie</div>
-                            <div class="price">$56</div>
+                        <img src="img/product3.jpg" alt="blue tishirt" width="255" height="322">
+                        <div class="product-name">YELLOW Tshirt</div>
+                        <div class="price">$21</div>
+                    </div>
+                </li>
+                <li class="features-list-item">
+                    <div class="card">
+                        <div class="visibility-hidden">
+                            <ul class="buttons">
+                                <li class="button-item">
+                                    <p class="button-item-sign"></p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">2</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">3</p>
+                                </li>
+                                <li class="button-item">
+                                    <p class="button-item-sign">ADD TO CART</p>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="news">
-            <div class="news-title-line">
-                <h2 class="news-title">Latest News</h2>
-                <!-- <div class="line-second"></div> -->
-            </div>
-            <div class="news-box">
-                <ul class="blog">
-                    <li class="blog-item">
-                        <img src="img/blog1.jpg" alt="i-pad" width="350" height="262">
-                        <h3 class="news-block-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <div class="wrapper">
-                            <div class="wrapper-button">
-                                <a class="button" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="blog-item">
-                        <img src="img/blog2.jpg" alt="girls" width="350" height="262">
-                        <h3 class="news-block-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <div class="wrapper">
-                            <div class="wrapper-button">
-                                <a class="button" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="blog-item">
-                        <img src="img/blog3.jpg" alt="bus" width="350" height="262">
-                        <h3 class="news-block-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <div class="wrapper">
-                            <div class="wrapper-button">
-                                <a class="button" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                        <img src="img/product4.jpg" alt="blue tishirt" width="255" height="322">
+                        <div class="product-name">Cool lingerie</div>
+                        <div class="price">$56</div>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
+
 </body>
-<footer></footer>
+<footer>
+    <div class="end">
+        <div class="rights-wrapper">
+            <p class="rights">All Rights Reserved © Dokan | Designed <a class="designed" hreff="">ThemenGraph</a></p>
+        </div>
+    </div>
+</footer>
 
 </html>
