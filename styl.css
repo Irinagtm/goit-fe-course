@@ -1,28 +1,23 @@
 body {
-    /* font-family: "Roboto"; */
-    /* font-family: "Pe-icon-7-stroke"; */
     margin: 0px;
     padding: 0px;
 }
 
-a {
+.menu a {
     text-decoration: none;
-    text-transform: uppercase;
     color: #000000;
 }
 
+.menu li:not(:first-child) {
+    text-transform: uppercase;
+}
+
 .wrapper-section {
-    position: relative;
     height: 90px;
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.wrapper-item {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    line-height: 90px;
 }
 
 .wrapper-item {
@@ -36,16 +31,21 @@ a {
     margin-right: auto;
 }
 
-.logo {
+.logo-wrapper {
     display: inline-block;
-    margin-right: 488px;
+    margin-right: 514px;
     font-size: 30px;
     line-height: 32px;
     font-family: "Roboto";
     font-weight: 300;
 }
 
-.logo::first-letter {
+.logo-wrapper a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-wrapper::first-letter {
     color: #1abc9c;
 }
 
@@ -57,12 +57,15 @@ a {
 
 ul.menu li {
     display: inline;
-    margin-right: 34px;
     font-size: 14px;
     line-height: 11px;
     color: #000000;
     font-family: "Open Sans";
     font-weight: 700;
+}
+
+ul.menu li:not(:last-child) {
+    margin-right: 34px;
 }
 
 a:hover {
@@ -149,27 +152,25 @@ a:hover {
     clear: both;
 }
 
+.slider-wrp {
+    background-image: url(img/1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.slider-wrp-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
 .slider {
     position: relative;
     width: 1110px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.slides img {
-    height: 600px;
-    width: 100vw;
-    object-fit: cover;
-}
-
-.box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1807px;
-    height: 600px;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .slider-ctrl {
@@ -179,6 +180,9 @@ a:hover {
     width: 104px;
     height: 104px;
     background-color: #1abc9c;
+    opacity: 0.65;
+    border: none;
+    outline: none;
     top: 50%;
     transform: translateY(-50%);
     font-size: 100px;
@@ -188,18 +192,41 @@ a:hover {
     text-align: center;
 }
 
-.slider-ctrl:hover {
+.slider-ctrl:hover,
+.slider-ctrl:focus {
     background-color: #4ec6ab;
+    opacity: 1;
+    cursor: pointer;
 }
 
-.slider-ctrl-prev {
-    z-index: 1;
-    left: 0;
-}
+.slider-ctrl-prev {}
 
 .slider-ctrl-next {
-    z-index: 1;
     right: 0;
+}
+
+.slider-ctrl-prev::before,
+.slider-ctrl-next::before {
+    content: "";
+    --s: 28px;
+    --bd: 4px solid #fff;
+    width: var(--s);
+    height: var(--s);
+    border-left: var(--bd);
+    border-top: var(--bd);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.slider-ctrl-next::before {
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.slider-ctrl-prev::before {
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .slides {
@@ -222,7 +249,7 @@ a:hover {
     padding: 0;
     width: 760px;
     left: 50%;
-    bottom: 336px;
+    top: 240px;
     transform: translateX(-50%);
     font-size: 60px;
     line-height: 82px;
@@ -235,7 +262,7 @@ a:hover {
     position: absolute;
     margin: 0;
     padding: 0;
-    bottom: 282px;
+    top: 325px;
     left: 190px;
     font-family: "Roboto";
     font-size: 20px;
@@ -269,7 +296,6 @@ a:hover {
 }
 
 .button-item {
-    /* position: absolute; */
     width: 48px;
     height: 48px;
     margin-left: 10px;
@@ -344,4 +370,63 @@ a:hover {
 
 .designed:hover {
     color: #1abc9c;
+}
+
+
+/* кнопки */
+
+.cart-icon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-btn {
+    box-sizing: border-box;
+    background: transparent;
+    margin: 0 8px 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.icon-btn--add {
+    width: calc(50px * 3 + 4 * 8px);
+    background: #323232;
+}
+
+.icon-btn-text {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.icon {
+    background-color: transparent;
+    width: 25px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.icon-cart {
+    float: left;
+    padding-left: 10px;
+}
+
+.icon-btn-text {
+    padding-top: 4px;
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.icon-btn:hover {
+    background: #1abc9c;
+    opacity: 1;
+    border: 1px solid #1abc9c;
 }
