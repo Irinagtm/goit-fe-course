@@ -272,9 +272,17 @@ a:focus {
 
 .icon-wrapper {
     position: relative;
+    position: absolute;
+    --w: 380px;
+    --h: 470px;
+    top: calc(var(--h)/2 - 28px - 10px);
+    left: calc(var(--w)/2 - 112px - 10px);
     width: 224px;
     height: 56px;
     font-size: 0;
+    z-index: 6;
+    opacity: 0;
+    transition: all 200ms linear;
 }
 
 .icon {
@@ -296,19 +304,16 @@ a:focus {
 .one {
     top: 0;
     right: 55px;
-    z-index: 4;
 }
 
 .two {
     top: 0;
     right: 111px;
-    z-index: 4;
 }
 
 .three {
     top: 0;
     right: 167px;
-    z-index: 4;
 }
 
 .item-twitter {
@@ -331,6 +336,10 @@ a:focus {
     top: -10px;
     right: 10px;
     opacity: 0.9;
+}
+
+.item-wrap:hover .icon-wrapper {
+    opacity: 1;
 }
 
 .item-wrap:hover .jump {
