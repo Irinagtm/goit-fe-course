@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-header {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-nav {
+    display: flex;
+    min-height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #fed136;
+    font-family: "Wisdom-Script";
+}
+
+@font-face {
+    font-family: 'Wisdom-Script';
+    src: local('Wisdom-Script'), url('https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff') format('woff');
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222222;
+    font-family: "Montserrat-Regular";
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular'), url('https://nomail.com.ua/files/woff/07689d4eaaa3d530d58826b5d7f84735.woff') format('woff');
+}
+
+.menu-items {
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    width: 486px;
+    justify-content: space-between;
+}
+
+a:hover,
+a:focus {
+    color: #fed136;
+}
+
+.services {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.printed {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #222222;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
+
+.writing {
+    margin: 0;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerifItalic";
+}
+
+@font-face {
+    font-family: "DroidSerifItalic";
+    src: url("../fonts/DroidSerifItalic/DroidSerifItalic.eot");
+    src: url("../fonts/DroidSerifItalic/DroidSerifItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/DroidSerifItalic/DroidSerifItalic.woff") format("woff"), url("../fonts/DroidSerifItalic/DroidSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.services-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-top: 72px;
+}
+
+.services-photo-circle {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-circle {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    background-color: #ffffff;
+    border: 3px solid #fed136;
+}
+
+.services-photo {
+    position: absolute;
+    padding-left: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-item-item {
+    list-style: none;
+    width: 290px;
+}
+
+.service-name {
+    font-size: 18px;
+    color: #222222;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
+
+.description {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 279px;
+    height: 58px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #777777;
+    font-family: "RobotoSlab-Light";
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Light';
+    src: local('RobotoSlab-Light'), url('https://nomail.com.ua/files/woff/8b156ada33ed75777372f874568631c9.woff') format('woff');
+}
+
+.section-form {
+    padding-top: 120px;
+}
+
+.form-wrapper {
+    position: relative;
+    width: 1402px;
+    height: 676px;
+    background-color: #222222;
+}
+
+.map-wrapper {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.form-about {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-name {
+    padding: 0;
+    margin: 0;
+    padding-top: 102px;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #777777;
+    font-family: "DroidSerifItalic";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "DroidSerifItalic";
+    src: url("../fonts/DroidSerifItalic/DroidSerifItalic.eot");
+    src: url("../fonts/DroidSerifItalic/DroidSerifItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/DroidSerifItalic/DroidSerifItalic.woff") format("woff"), url("../fonts/DroidSerifItalic/DroidSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.profile-form {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+}
+
+.information-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 209px;
+}
+
+.information-wrapper input {
+    width: 455px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
+
+.message-wrapper input {
+    width: 455px;
+    height: 208px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
+
+.button-wrapper {
+    display: flex;
+    padding-top: 28px;
+    justify-content: center;
+}
+
+.button-wrapper input {
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: #fed136;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
+}
