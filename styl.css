@@ -255,6 +255,7 @@ a:focus {
 .information-wrapper input {
     width: 455px;
     height: 50px;
+    padding-left: 20px;
     border-radius: 2px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
@@ -269,9 +270,21 @@ a:focus {
     src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff');
 }
 
-.message-wrapper input {
+.message-wrapper {
     width: 455px;
     height: 208px;
+    padding-left: 30px;
+}
+
+.massage-item {
+    margin: 0;
+    padding: 0;
+}
+
+.massage-item-item {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 16px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     font-size: 14px;
